@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KDT_Hierarchical.kicad_pro",
+    "filename": "Linux-Kit.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -618,7 +618,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "Templates\\KDT_Template.kicad_wks",
+    "page_layout_descr_file": "Other\\Templates\\KDT_Template.kicad_wks",
     "plot_directory": "Schematic/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -632,7 +632,7 @@
   "sheets": [
     [
       "0650c7a8-acba-429c-9f8e-eec0baf0bc1c",
-      "Root"
+      "根目录"
     ],
     [
       "de68a101-7eef-4ba8-abb4-14d03adb087f",
@@ -660,14 +660,14 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
+    "BOARD_NAME": "Linux-Kit",
+    "COMPANY": "FoxIO Tech",
+    "DESIGNER": "Cjiio",
     "DOC_TYPE": "Fabrication",
-    "PROJECT_NAME": "Project Name",
-    "RELEASE_DATE": "Release Date",
-    "REVIEWER": "Reviewer Name",
-    "REVISION": "Revision Number",
-    "VARIANT": "Variant Name"
+    "PROJECT_NAME": "Linux-Kit",
+    "RELEASE_DATE": "2024-10-05",
+    "REVIEWER": "",
+    "REVISION": "v1.0",
+    "VARIANT": "Preliminary"
   }
 }

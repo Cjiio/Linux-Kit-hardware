@@ -1,0 +1,4788 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "SG2000"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG2000"
+			(at 0.508 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SG2000_BGA_10X10:BGA-205_15x15_10.0x10.0mm"
+			(at 3.81 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SG2000是面向AIOT领域的高性能、低功耗芯片。它具备多个核心、快速内核切换、H.264/H.265视频编解码器、专业级图像增强功能、专有的0.5TOPS INT8 TPU、高效的TPU调度引擎以及多样化的外设接口。"
+			(at -2.032 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SG2000_1_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -71.12 180)
+				(length 3.81)
+				(name "VDD18A_PLL_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -78.74 180)
+				(length 3.81)
+				(name "VCC18A_USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -76.2 180)
+				(length 3.81)
+				(name "VDD18A_MIPI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -73.66 180)
+				(length 3.81)
+				(name "VDD18A_MIPI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -68.58 180)
+				(length 3.81)
+				(name "VDDIO18_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -81.28 180)
+				(length 3.81)
+				(name "VDD18A_ETH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -83.82 180)
+				(length 3.81)
+				(name "VDD18A_AUD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -88.9 180)
+				(length 3.81)
+				(name "VDD33A_ETH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -99.06 180)
+				(length 3.81)
+				(name "PAD_VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -91.44 180)
+				(length 3.81)
+				(name "VCC33A_USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "VDD09A_ETH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -96.52 180)
+				(length 3.81)
+				(name "VIN3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "VDD09A_MIPI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "VDDC_RTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -48.26 180)
+				(length 3.81)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -58.42 180)
+				(length 3.81)
+				(name "VDDIO_RTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -106.68 180)
+				(length 3.81)
+				(name "VDDQ_DRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -109.22 180)
+				(length 3.81)
+				(name "VDDQ_DRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -66.04 180)
+				(length 3.81)
+				(name "VDD18A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -111.76 180)
+				(length 3.81)
+				(name "VDDQ_DRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -114.3 180)
+				(length 3.81)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -116.84 180)
+				(length 3.81)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -119.38 180)
+				(length 3.81)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -121.92 180)
+				(length 3.81)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -124.46 180)
+				(length 3.81)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_1_1"
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Power VDD"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_2_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -137.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -15.24 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -134.62 180)
+				(length 3.81)
+				(name "VDDCAP18_VIVO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -55.88 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -119.38 180)
+				(length 3.81)
+				(name "VSS18A_AUD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -48.26 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -53.34 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -121.92 180)
+				(length 3.81)
+				(name "VSS18A_AUD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -58.42 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -60.96 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -63.5 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -66.04 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -68.58 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -124.46 180)
+				(length 3.81)
+				(name "VSS18A_AUD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -127 180)
+				(length 3.81)
+				(name "VSS18A_AUD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -71.12 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -73.66 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -76.2 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -78.74 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -81.28 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -83.82 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -86.36 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -88.9 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -91.44 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -93.98 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -96.52 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -99.06 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -101.6 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -104.14 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -109.22 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -106.68 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -111.76 180)
+				(length 3.81)
+				(name "VSSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_2_1"
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Power VSS"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_3_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "IIC2_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "KEY_COL2" bidirectional line)
+				(alternate "PWM[14]" bidirectional line)
+				(alternate "PWR_GPIO[12]" bidirectional line)
+				(alternate "UART2_RX" input line)
+			)
+			(pin bidirectional line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "IIC2_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS1_MCLK" bidirectional line)
+				(alternate "IIS2_MCLK" bidirectional line)
+				(alternate "KEY_COL3" bidirectional line)
+				(alternate "PWM[15]" bidirectional line)
+				(alternate "PWR_GPIO[13]" bidirectional line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin input line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "UART2_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS2_DI" input line)
+				(alternate "KEY_COL3" bidirectional line)
+				(alternate "PWM[10]" bidirectional line)
+				(alternate "PWR_GPIO[16]" bidirectional line)
+				(alternate "PWR_UART1_RX" input line)
+				(alternate "UART4_RX" input line)
+				(alternate "WG2_D1" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -58.42 180)
+				(length 3.81)
+				(name "UART2_CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS2_LRCK" bidirectional line)
+				(alternate "KEY_ROW1" bidirectional line)
+				(alternate "PWM[9]" bidirectional line)
+				(alternate "PWR_GPIO[17]" bidirectional line)
+				(alternate "UART4_CTS" input line)
+				(alternate "WG1_D1" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -53.34 180)
+				(length 3.81)
+				(name "UART2_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS2_BCLK" bidirectional line)
+				(alternate "KEY_ROW3" bidirectional line)
+				(alternate "PWM[11]" bidirectional line)
+				(alternate "PWR_GPIO[14]" bidirectional line)
+				(alternate "PWR_UART1_TX" output line)
+				(alternate "UART4_TX" output line)
+				(alternate "WG2_D0" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -96.52 180)
+				(length 3.81)
+				(name "PTEST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -66.04 180)
+				(length 3.81)
+				(name "CLK32K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX0" output line)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CR_SCL0" bidirectional line)
+				(alternate "DBG[0]" output line)
+				(alternate "KEY_COL0" bidirectional line)
+				(alternate "PWM[2]" bidirectional line)
+				(alternate "PWR_GPIO[10]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -60.96 180)
+				(length 3.81)
+				(name "UART2_RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS2_DO" output line)
+				(alternate "KEY_ROW0" bidirectional line)
+				(alternate "PWM[8]" bidirectional line)
+				(alternate "PWR_GPIO[15]" bidirectional line)
+				(alternate "UART4_RTS" output line)
+				(alternate "WG1_D0" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -78.74 180)
+				(length 3.81)
+				(name "PWR_ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "PWR_GPIO[9]" bidirectional line)
+				(alternate "UART1_RX" input line)
+				(alternate "WG0_D1" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "PWR_GPIO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_2WTCK" bidirectional line)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC2_SDA" bidirectional line)
+				(alternate "PWM[10]" bidirectional line)
+				(alternate "PWR_IIC_SDA" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "PWR_GPIO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM[8]" bidirectional line)
+				(alternate "PWR_UART0_RX" input line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin output line
+				(at 41.91 -68.58 180)
+				(length 3.81)
+				(name "CLK25M"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX1" output line)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "CR_2WTMS" bidirectional line)
+				(alternate "DBG[1]" output line)
+				(alternate "KEY_COL1" bidirectional line)
+				(alternate "PWM[3]" bidirectional line)
+				(alternate "PWR_GPIO[11]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "PWR_WAKEUP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EPHY_LNK_LED" output line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "PWR_GPIO[7]" bidirectional line)
+				(alternate "PWR_IR1" input line)
+				(alternate "UART1_TX" output line)
+				(alternate "WG0_D0" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "PWR_WAKEUP0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EPHY_LNK_LED" bidirectional line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "PWR_GPIO[6]" bidirectional line)
+				(alternate "PWR_IR0" bidirectional line)
+				(alternate "PWR_UART0_TX" bidirectional line)
+				(alternate "UART1_TX" bidirectional line)
+				(alternate "WG2_D0" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "PWR_GPIO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_SDA0" bidirectional line)
+				(alternate "EPHY_LNK_LED" output line)
+				(alternate "IIC2_SCL" bidirectional line)
+				(alternate "PWM[9]" bidirectional line)
+				(alternate "PWR_IIC_SCL" bidirectional line)
+				(alternate "UART2_RX" input line)
+			)
+			(pin power_in line
+				(at 41.91 -114.3 180)
+				(length 3.81)
+				(name "VDDBKUP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 41.91 -119.38 180)
+				(length 3.81)
+				(name "RTC_XIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -15.24 180)
+				(length 3.81)
+				(name "PWR_SEQ3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO[5]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "PWR_VBAT_DET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "PWR_SEQ1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO[3]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -83.82 180)
+				(length 3.81)
+				(name "PWR_BUTTON1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "PWR_GPIO[8]" bidirectional line)
+				(alternate "UART1_RX" input line)
+				(alternate "WG2_D1" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -121.92 180)
+				(length 3.81)
+				(name "RTC_XOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 41.91 -101.6 180)
+				(length 3.81)
+				(name "GPIO_ZQ___PAD_ZQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM[2]" bidirectional line)
+				(alternate "PWR_GPIO[24]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -73.66 180)
+				(length 3.81)
+				(name "PWR_RSTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "PWR_SEQ2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO[4]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -88.9 180)
+				(length 3.81)
+				(name "XTAL_XIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -91.44 180)
+				(length 3.81)
+				(name "XTAL_XOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_3_1"
+			(polyline
+				(pts
+					(xy 31.75 -111.76) (xy 6.35 -111.76)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -104.14) (xy 0 -104.14)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDDBKUP"
+				(at 19.05 -107.95 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(text "VDDIO RTC"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_4_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -114.3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -91.44 180)
+				(length 3.81)
+				(name "VDDIO_SD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 41.91 -78.74 180)
+				(length 3.81)
+				(name "SDIO0_CD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA[13]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -99.06 180)
+				(length 3.81)
+				(name "SDIO0_D[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX0" output line)
+				(alternate "DBG[3]" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[12]" bidirectional line)
+				(alternate "UART1_TX" output line)
+				(alternate "WG0_D1" bidirectional line)
+				(alternate "XGPIOA[10]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -111.76 180)
+				(length 3.81)
+				(name "SDIO0_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[0]" output line)
+				(alternate "EPHY_LNK_LED" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[15]" bidirectional line)
+				(alternate "SPI0_SCK" output line)
+				(alternate "XGPIOA[7]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -96.52 180)
+				(length 3.81)
+				(name "SDIO0_D[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "DBG[2]" output line)
+				(alternate "PWM[13]" bidirectional line)
+				(alternate "SPI0_SDI" input line)
+				(alternate "UART3_TX" output line)
+				(alternate "WG0_D0" bidirectional line)
+				(alternate "XGPIOA[9]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -109.22 180)
+				(length 3.81)
+				(name "SDIO0_CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[1]" output line)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[14]" bidirectional line)
+				(alternate "SPI0_SDO" bidirectional line)
+				(alternate "XGPIOA[8]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -104.14 180)
+				(length 3.81)
+				(name "SDIO0_D[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[5]" output line)
+				(alternate "PWM[10]" bidirectional line)
+				(alternate "SPI0_CS_X" output line)
+				(alternate "UART3_RX" input line)
+				(alternate "WG1_D1" bidirectional line)
+				(alternate "XGPIOA[12]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -101.6 180)
+				(length 3.81)
+				(name "SDIO0_D[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX1" output line)
+				(alternate "DBG[4]" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[11]" bidirectional line)
+				(alternate "UART1_RX" input line)
+				(alternate "WG1_D0" bidirectional line)
+				(alternate "XGPIOA[11]" bidirectional line)
+			)
+			(pin power_in line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "VDDIO_EMMC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "UART0_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX0" output line)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[7]" output line)
+				(alternate "PWM[5]" bidirectional line)
+				(alternate "UART1_RX" input line)
+				(alternate "XGPIOA[17]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "UART0_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX1" output line)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "DBG[6]" output line)
+				(alternate "PWM[4]" bidirectional line)
+				(alternate "UART1_TX" output line)
+				(alternate "XGPIOA[16]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "JTAG_CPU_TRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "VO_D[30]" output line)
+				(alternate "XGPIOA[20]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -76.2 180)
+				(length 3.81)
+				(name "SDIO0_PWR_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA[14]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -68.58 180)
+				(length 3.81)
+				(name "XGPIOA[15]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "JTAG_CPU_TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX1" output line)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "CR_4WTCK" bidirectional line)
+				(alternate "PWM[6]" bidirectional line)
+				(alternate "UART1_CTS" input line)
+				(alternate "UART1_RX" input line)
+				(alternate "VO_D[29]" output line)
+				(alternate "XGPIOA[18]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "JTAG_CPU_TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX0" output line)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CR_4WTMS" bidirectional line)
+				(alternate "PWM[7]" bidirectional line)
+				(alternate "UART1_RTS" output line)
+				(alternate "UART1_TX" output line)
+				(alternate "VO_D[28]" output line)
+				(alternate "XGPIOA[19]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "EMMC_DAT[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_WP" bidirectional line)
+				(alternate "SPINOR_WP_X" bidirectional line)
+				(alternate "XGPIOA[27]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "EMMC_DAT[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_MOSI" bidirectional line)
+				(alternate "SPINOR_MOSI" bidirectional line)
+				(alternate "XGPIOA[25]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -48.26 180)
+				(length 3.81)
+				(name "EMMC_DAT[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_HOLD" bidirectional line)
+				(alternate "SPINOR_HOLD_X" bidirectional line)
+				(alternate "XGPIOA[26]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -58.42 180)
+				(length 3.81)
+				(name "EMMC_RSTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX2" output line)
+				(alternate "XGPIOA[21]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -71.12 180)
+				(length 3.81)
+				(name "AUX0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[12]" output line)
+				(alternate "IIS1_MCLK" bidirectional line)
+				(alternate "VO_D[31]" output line)
+				(alternate "WG1_D1" bidirectional line)
+				(alternate "XGPIOA[30]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -15.24 180)
+				(length 3.81)
+				(name "IIC0_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_4WTDO" bidirectional line)
+				(alternate "DBG[11]" output line)
+				(alternate "UART1_RX" input line)
+				(alternate "UART2_RX" input line)
+				(alternate "WG0_D1" bidirectional line)
+				(alternate "WG1_D0" bidirectional line)
+				(alternate "XGPIOA[29]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "EMMC_DAT[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_CS" output line)
+				(alternate "SPINOR_CS_X" output line)
+				(alternate "XGPIOA[24]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -55.88 180)
+				(length 3.81)
+				(name "EMMC_CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_MISO" bidirectional line)
+				(alternate "SPINOR_MISO" bidirectional line)
+				(alternate "XGPIOA[23]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -60.96 180)
+				(length 3.81)
+				(name "EMMC_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPINAND_CLK" output line)
+				(alternate "SPINOR_SCK" output line)
+				(alternate "XGPIOA[22]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "IIC0_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_4WTDI" bidirectional line)
+				(alternate "DBG[10]" output line)
+				(alternate "UART1_TX" output line)
+				(alternate "UART2_TX" output line)
+				(alternate "WG0_D0" bidirectional line)
+				(alternate "XGPIOA[28]" bidirectional line)
+			)
+		)
+		(symbol "SG2000_4_1"
+			(polyline
+				(pts
+					(xy 31.75 -88.9) (xy 6.35 -88.9)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -81.28) (xy 0 -81.28)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDDIO EMMC"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(text "VDDIO SD0"
+				(at 19.05 -85.09 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_5_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -58.42)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "USB_VBUS_DET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "XGPIOB[6]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "USB_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB[4]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "USB_VBUS_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB[5]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -55.88 180)
+				(length 3.81)
+				(name "GPIO_RTX___EPHY_RTX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" bidirectional line)
+				(alternate "PWM[1]" bidirectional line)
+				(alternate "XGPIOB[23]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "ADC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "KEY_COL2" bidirectional line)
+				(alternate "XGPIOB[3]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "ADC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "PWM[13]" bidirectional line)
+				(alternate "UART3_RX" input line)
+				(alternate "WG2_D1" bidirectional line)
+				(alternate "XGPIOB[2]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "ADC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "EPHY_LNK_LED" output line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "PWM[12]" bidirectional line)
+				(alternate "UART3_TX" output line)
+				(alternate "WG2_D0" bidirectional line)
+				(alternate "XGPIOB[1]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "RSTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "PWM[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB[0]" bidirectional line)
+			)
+		)
+		(symbol "SG2000_5_1"
+			(polyline
+				(pts
+					(xy 31.75 -22.86) (xy 6.35 -22.86)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -15.24) (xy 0 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "USB"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(text "VDDIO18"
+				(at 19.05 -19.05 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_6_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -48.26)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "PAD_ETH_RXM___EPHY_TXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIS2_DI" input line)
+				(alternate "PAD_ETH_RXM" bidirectional line)
+				(alternate "PWM[14]" bidirectional line)
+				(alternate "SPI1_CS_X" output line)
+				(alternate "UART3_CTS" input line)
+				(alternate "XGPIOB[26]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "PAD_ETH_RXP___EPHY_TXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIS2_DO" output line)
+				(alternate "PAD_ETH_RXP" bidirectional line)
+				(alternate "PWM[15]" bidirectional line)
+				(alternate "SPI1_SCK" output line)
+				(alternate "UART3_TX" output line)
+				(alternate "XGPIOB[27]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "PAD_ETH_TXM___EPHY_RXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "IIS2_BCLK" bidirectional line)
+				(alternate "PAD_ETH_TXM" bidirectional line)
+				(alternate "PWM[12]" bidirectional line)
+				(alternate "SPI1_SDI" input line)
+				(alternate "UART3_RTS" output line)
+				(alternate "XGPIOB[24]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "PAD_ETH_TXP___EPHY_RXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "IIS2_LRCK" bidirectional line)
+				(alternate "PAD_ETH_TXP" bidirectional line)
+				(alternate "PWM[13]" bidirectional line)
+				(alternate "SPI1_SDO" bidirectional line)
+				(alternate "UART3_RX" input line)
+				(alternate "XGPIOB[25]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "PAD_AUD_AOUTL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS1_LRCK" bidirectional line)
+				(alternate "IIS2_LRCK" bidirectional line)
+				(alternate "XGPIOC[25]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "PAD_AUD_AVREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "PAD_AUD_AOUTR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS1_DI" input line)
+				(alternate "IIS1_DO" output line)
+				(alternate "IIS2_DO" output line)
+				(alternate "XGPIOC[24]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "PAD_AUD_AINL_MIC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS1_BCLK" bidirectional line)
+				(alternate "IIS2_BCLK" bidirectional line)
+				(alternate "XGPIOC[23]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "PAD_AUD_AINR_MIC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIS1_DI" input line)
+				(alternate "IIS1_DO" output line)
+				(alternate "IIS2_DI" input line)
+			)
+		)
+		(symbol "SG2000_6_1"
+			(polyline
+				(pts
+					(xy 31.75 -35.56) (xy 6.35 -35.56)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -27.94) (xy 0 -27.94)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "EPHY"
+				(at 19.05 -31.75 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+			(text "VDDIO18A AUD"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_7_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "VDDIO_SD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "SD1_D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[5]" bidirectional line)
+				(alternate "PWR_SD1_D2" bidirectional line)
+				(alternate "PWR_SPINOR1_HOLD_X" bidirectional line)
+				(alternate "UART2_TX" output line)
+				(alternate "UART3_TX" output line)
+				(alternate "VO_D[33]" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "SD1_D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[4]" bidirectional line)
+				(alternate "PWR_GPIO[18]" bidirectional line)
+				(alternate "PWR_SD1_D3" bidirectional line)
+				(alternate "PWR_SPINOR1_CS_X" output line)
+				(alternate "SPI2_CS_X" output line)
+				(alternate "UART3_CTS" input line)
+				(alternate "VO_D[32]" output line)
+			)
+			(pin output line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "SD1_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "EPHY_SPD_LED" output line)
+				(alternate "IIC3_SDA" bidirectional line)
+				(alternate "PWM[9]" bidirectional line)
+				(alternate "PWR_GPIO[23]" bidirectional line)
+				(alternate "PWR_SD1_CLK" output line)
+				(alternate "PWR_SPINOR1_SCK" output line)
+				(alternate "SPI2_SCK" output line)
+				(alternate "VO_D[37]" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "SD1_CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "EPHY_LNK_LED" output line)
+				(alternate "IIC3_SCL" bidirectional line)
+				(alternate "PWM[8]" bidirectional line)
+				(alternate "PWR_GPIO[22]" bidirectional line)
+				(alternate "PWR_SD1_CMD" bidirectional line)
+				(alternate "PWR_SPINOR1_MOSI" bidirectional line)
+				(alternate "SPI2_SDO" bidirectional line)
+				(alternate "VO_D[36]" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "SD1_D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[6]" bidirectional line)
+				(alternate "PWR_GPIO[20]" bidirectional line)
+				(alternate "PWR_SD1_D1" bidirectional line)
+				(alternate "PWR_SPINOR1_WP_X" bidirectional line)
+				(alternate "UART2_RX" input line)
+				(alternate "UART3_RX" input line)
+				(alternate "VO_D[34]" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "SD1_D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[7]" bidirectional line)
+				(alternate "PWR_GPIO[21]" bidirectional line)
+				(alternate "PWR_SD1_D0" bidirectional line)
+				(alternate "PWR_SPINOR1_MISO" bidirectional line)
+				(alternate "SPI2_SDI" input line)
+				(alternate "UART3_RTS" output line)
+				(alternate "VO_D[35]" output line)
+			)
+		)
+		(symbol "SG2000_7_1"
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDDIO SD1"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_8_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -96.52)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXM4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "DBG[18]" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[12]" bidirectional line)
+				(alternate "SD1_CLK" output line)
+				(alternate "VI0_D[15]" input line)
+				(alternate "VO_D[24]" output line)
+				(alternate "XGPIOC[18]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -58.42 180)
+				(length 3.81)
+				(name "PAD_MIPIRX0N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "VI0_D[7]" input line)
+				(alternate "VO_D[6]" output line)
+				(alternate "XGPIOC[10]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -71.12 180)
+				(length 3.81)
+				(name "PAD_MIPIRX3P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_2WTCK" bidirectional line)
+				(alternate "MUX_SPI1_MOSI" bidirectional line)
+				(alternate "VI0_D[2]" input line)
+				(alternate "VI1_D[16]" input line)
+				(alternate "XGPIOC[5]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -76.2 180)
+				(length 3.81)
+				(name "PAD_MIPIRX4P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "CR_SDA0" bidirectional line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "KEY_ROW1" bidirectional line)
+				(alternate "MUX_SPI1_CS" bidirectional line)
+				(alternate "VI0_D[0]" input line)
+				(alternate "VI1_D[14]" input line)
+				(alternate "XGPIOC[3]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXP3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "IIC2_SCL" bidirectional line)
+				(alternate "PWM[15]" bidirectional line)
+				(alternate "SD1_D1" bidirectional line)
+				(alternate "VI0_D[18]" input line)
+				(alternate "VO_D[27]" output line)
+				(alternate "XGPIOC[21]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXM3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "IIC2_SDA" bidirectional line)
+				(alternate "PWM[14]" bidirectional line)
+				(alternate "SD1_D0" bidirectional line)
+				(alternate "VI0_D[17]" input line)
+				(alternate "VO_D[26]" output line)
+				(alternate "XGPIOC[20]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXP4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[19]" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[13]" bidirectional line)
+				(alternate "SD1_CMD" bidirectional line)
+				(alternate "VI0_D[16]" input line)
+				(alternate "VO_D[25]" output line)
+				(alternate "XGPIOC[19]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -55.88 180)
+				(length 3.81)
+				(name "PAD_MIPIRX0P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[11]" output line)
+				(alternate "VI0_D[8]" input line)
+				(alternate "VO_D[5]" output line)
+				(alternate "XGPIOC[11]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -63.5 180)
+				(length 3.81)
+				(name "PAD_MIPIRX1N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[8]" output line)
+				(alternate "KEY_ROW3" bidirectional line)
+				(alternate "VI0_D[5]" input line)
+				(alternate "VO_D[8]" output line)
+				(alternate "XGPIOC[8]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -68.58 180)
+				(length 3.81)
+				(name "PAD_MIPIRX2N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[6]" output line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "VI0_D[3]" input line)
+				(alternate "VI1_D[17]" input line)
+				(alternate "VO_D[10]" output line)
+				(alternate "XGPIOC[6]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -78.74 180)
+				(length 3.81)
+				(name "PAD_MIPIRX4N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CR_SCL0" bidirectional line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "KEY_ROW0" bidirectional line)
+				(alternate "MUX_SPI1_SCK" bidirectional line)
+				(alternate "VI0_CLK" input line)
+				(alternate "VI1_D[13]" input line)
+				(alternate "XGPIOC[2]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -83.82 180)
+				(length 3.81)
+				(name "PAD_MIPIRX5N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[0]" output line)
+				(alternate "VI1_D[11]" input line)
+				(alternate "VO_D[12]" output line)
+				(alternate "WG0_D0" bidirectional line)
+				(alternate "XGPIOC[0]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_SCL0" bidirectional line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[9]" bidirectional line)
+				(alternate "SD1_D3" bidirectional line)
+				(alternate "SPI0_CS_X" output line)
+				(alternate "VI0_D[14]" input line)
+				(alternate "VO_CLK0" output line)
+				(alternate "XGPIOC[17]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXM2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_SDA0" bidirectional line)
+				(alternate "DBG[14]" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[8]" bidirectional line)
+				(alternate "SD1_D2" bidirectional line)
+				(alternate "SPI0_SCK" output line)
+				(alternate "VI0_D[13]" input line)
+				(alternate "VO_D[0]" output line)
+				(alternate "XGPIOC[16]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "CAM_PD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "IIS1_MCLK" bidirectional line)
+				(alternate "XGPIOA[1]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -45.72 180)
+				(length 3.81)
+				(name "CAM_MCLK0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX1" output line)
+				(alternate "XGPIOA[0]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -60.96 180)
+				(length 3.81)
+				(name "PAD_MIPIRX1P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[9]" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "KEY_ROW2" bidirectional line)
+				(alternate "VI0_D[6]" input line)
+				(alternate "VO_D[7]" output line)
+				(alternate "XGPIOC[9]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -66.04 180)
+				(length 3.81)
+				(name "PAD_MIPIRX2P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "DBG[7]" output line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "VI0_D[4]" input line)
+				(alternate "VI1_D[18]" input line)
+				(alternate "VO_D[9]" output line)
+				(alternate "XGPIOC[7]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -73.66 180)
+				(length 3.81)
+				(name "PAD_MIPIRX3N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "CR_2WTMS" bidirectional line)
+				(alternate "MUX_SPI1_MISO" bidirectional line)
+				(alternate "VI0_D[1]" input line)
+				(alternate "VI1_D[15]" input line)
+				(alternate "XGPIOC[4]" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 -81.28 180)
+				(length 3.81)
+				(name "PAD_MIPIRX5P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "DBG[1]" output line)
+				(alternate "IIS1_MCLK" bidirectional line)
+				(alternate "VI1_D[12]" input line)
+				(alternate "VO_D[11]" output line)
+				(alternate "WG0_D1" bidirectional line)
+				(alternate "XGPIOC[1]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -15.24 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_2WTCK" bidirectional line)
+				(alternate "DBG[15]" output line)
+				(alternate "IIC2_SCL" bidirectional line)
+				(alternate "PWM[11]" bidirectional line)
+				(alternate "SPI0_SDI" input line)
+				(alternate "VI0_D[12]" input line)
+				(alternate "VO_D[1]" output line)
+				(alternate "XGPIOC[15]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXM1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CR_2WTMS" bidirectional line)
+				(alternate "IIC2_SDA" bidirectional line)
+				(alternate "PWM[10]" bidirectional line)
+				(alternate "SPI0_SDO" bidirectional line)
+				(alternate "VI0_D[11]" input line)
+				(alternate "VO_D[2]" output line)
+				(alternate "XGPIOC[14]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -48.26 180)
+				(length 3.81)
+				(name "CAM_MCLK1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AUX2" output line)
+				(alternate "CAM_HS0" output line)
+				(alternate "XGPIOA[3]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -93.98 180)
+				(length 3.81)
+				(name "IIC3_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA[5]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXP0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "DBG[13]" output line)
+				(alternate "PWM[15]" bidirectional line)
+				(alternate "VI0_D[10]" input line)
+				(alternate "VO_D[3]" output line)
+				(alternate "XGPIOC[13]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -12.7 180)
+				(length 3.81)
+				(name "PAD_MIPI_TXM0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "CAM_VS0" output line)
+				(alternate "DBG[12]" output line)
+				(alternate "PWM[14]" bidirectional line)
+				(alternate "VI0_D[9]" input line)
+				(alternate "VO_D[4]" output line)
+				(alternate "XGPIOC[12]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "CAM_PD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "IIS1_MCLK" bidirectional line)
+				(alternate "XGPIOA[4]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "CAM_RST0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "XGPIOA[2]" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -91.44 180)
+				(length 3.81)
+				(name "IIC3_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA[6]" bidirectional line)
+			)
+		)
+		(symbol "SG2000_8_1"
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDD18A MIPI"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_9_0"
+			(rectangle
+				(start 0 0)
+				(end 38.1 -53.34)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 41.91 -25.4 180)
+				(length 3.81)
+				(name "VIVO_D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "RMII0_TXD0" output line)
+				(alternate "UART2_RTS" output line)
+				(alternate "VI1_D[3]" input line)
+				(alternate "VI2_D[3]" input line)
+				(alternate "VO_D[16]" output line)
+				(alternate "XGPIOB[18]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -43.18 180)
+				(length 3.81)
+				(name "VIVO_D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "PWM[1]" bidirectional line)
+				(alternate "RMII0_IRQ" bidirectional line)
+				(alternate "UART2_TX" output line)
+				(alternate "VI1_D[10]" input line)
+				(alternate "VO_D[23]" output line)
+				(alternate "XGPIOB[11]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -22.86 180)
+				(length 3.81)
+				(name "VIVO_D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "PWM[2]" bidirectional line)
+				(alternate "RMII0_TXD1" output line)
+				(alternate "UART2_TX" output line)
+				(alternate "VI1_D[2]" input line)
+				(alternate "VI2_D[2]" input line)
+				(alternate "VO_D[15]" output line)
+				(alternate "XGPIOB[19]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -30.48 180)
+				(length 3.81)
+				(name "VIVO_D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "RMII0_RXD0" input line)
+				(alternate "SPI3_CS_X" output line)
+				(alternate "UART2_RX" input line)
+				(alternate "VI1_D[5]" input line)
+				(alternate "VI2_D[5]" input line)
+				(alternate "VO_D[18]" output line)
+				(alternate "XGPIOB[16]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -35.56 180)
+				(length 3.81)
+				(name "VIVO_D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_HS0" output line)
+				(alternate "IIC2_SDA" bidirectional line)
+				(alternate "RMII0_RXD1" input line)
+				(alternate "SPI3_SDI" input line)
+				(alternate "VI1_D[7]" input line)
+				(alternate "VI2_D[7]" input line)
+				(alternate "VO_D[20]" output line)
+				(alternate "XGPIOB[14]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -40.64 180)
+				(length 3.81)
+				(name "VIVO_D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK1" output line)
+				(alternate "IIC1_SCL" bidirectional line)
+				(alternate "PWM[2]" bidirectional line)
+				(alternate "UART2_RX" input line)
+				(alternate "VI1_D[9]" input line)
+				(alternate "VO_D[22]" output line)
+				(alternate "XGPIOB[12]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -20.32 180)
+				(length 3.81)
+				(name "VIVO_D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIC3_SDA" bidirectional line)
+				(alternate "IIC4_SCL" bidirectional line)
+				(alternate "PWM[3]" bidirectional line)
+				(alternate "RMII0_RXDV" input line)
+				(alternate "VI1_D[1]" input line)
+				(alternate "VI2_D[1]" input line)
+				(alternate "VO_D[14]" output line)
+				(alternate "XGPIOB[20]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -33.02 180)
+				(length 3.81)
+				(name "VIVO_D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "RMII0_REFCLKI" bidirectional line)
+				(alternate "SPI3_SCK" output line)
+				(alternate "UART2_TX" output line)
+				(alternate "VI1_D[6]" input line)
+				(alternate "VI2_D[6]" input line)
+				(alternate "VO_D[19]" output line)
+				(alternate "XGPIOB[15]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -38.1 180)
+				(length 3.81)
+				(name "VIVO_D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIC2_SCL" bidirectional line)
+				(alternate "PWM[3]" bidirectional line)
+				(alternate "RMII0_MDIO" bidirectional line)
+				(alternate "SPI3_SDO" bidirectional line)
+				(alternate "VI1_D[8]" input line)
+				(alternate "VO_D[21]" output line)
+				(alternate "XGPIOB[13]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -50.8 180)
+				(length 3.81)
+				(name "VIVO_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_MCLK0" output line)
+				(alternate "RMII0_TXEN" output line)
+				(alternate "UART2_RX" input line)
+				(alternate "VI1_CLK" input line)
+				(alternate "VI2_CLK" input line)
+				(alternate "VO_CLK1" output line)
+				(alternate "WG1_D1" bidirectional line)
+				(alternate "XGPIOB[22]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -27.94 180)
+				(length 3.81)
+				(name "VIVO_D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAM_VS0" output line)
+				(alternate "IIC1_SDA" bidirectional line)
+				(alternate "RMII0_MDC" bidirectional line)
+				(alternate "UART2_CTS" input line)
+				(alternate "VI1_D[4]" input line)
+				(alternate "VI2_D[4]" input line)
+				(alternate "VO_D[17]" output line)
+				(alternate "XGPIOB[17]" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 -17.78 180)
+				(length 3.81)
+				(name "VIVO_D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IIC3_SCL" bidirectional line)
+				(alternate "IIC4_SDA" bidirectional line)
+				(alternate "RMII0_TXCLK" output line)
+				(alternate "VI1_D[0]" input line)
+				(alternate "VI2_D[0]" input line)
+				(alternate "VO_D[13]" output line)
+				(alternate "WG1_D0" bidirectional line)
+				(alternate "XGPIOB[21]" bidirectional line)
+			)
+			(pin power_in line
+				(at 41.91 -10.16 180)
+				(length 3.81)
+				(name "VDDIO_VIVO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SG2000_9_1"
+			(polyline
+				(pts
+					(xy 31.75 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VDDIO VIVO"
+				(at 19.05 -3.81 0)
+				(effects
+					(font
+						(size 2 2)
+						(bold yes)
+					)
+				)
+			)
+		)
+	)
+)

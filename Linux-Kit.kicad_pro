@@ -528,7 +528,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "Templates/KDT_Template_Fab.kicad_wks"
+    "page_layout_descr_file": "Other/Templates/KDT_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -643,16 +643,76 @@
       "Project Architecture"
     ],
     [
+      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
+      "Power - Sequencing"
+    ],
+    [
       "7d5a1283-086b-46b0-8df7-a9850521fb5e",
-      "Section A - Title A"
+      "Power - PMIC"
+    ],
+    [
+      "3f83a0da-0211-467c-bdbe-72eabd638cc0",
+      "SOC - RTC"
+    ],
+    [
+      "12727398-d544-4225-acf0-fbcffefca846",
+      "SOC - WIFI"
+    ],
+    [
+      "b0921ef2-98e4-4283-897e-0e4f807f92f1",
+      "SOC - USB, EPHY"
     ],
     [
       "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "Section B - Title B"
+      "SOC - EMMC, SD0"
     ],
     [
-      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
-      "Power - Sequencing"
+      "5c4c087e-ed45-46ab-98d8-52ea4eb3af78",
+      "SOC - MIPI DSI, GPIO"
+    ],
+    [
+      "904c30ae-7474-456a-8566-9786dac11d96",
+      "Device - WIFI"
+    ],
+    [
+      "ab4230a8-d238-400c-a33b-3364681cde2d",
+      "Device - EMMC"
+    ],
+    [
+      "51386d30-8cba-44b4-87ce-7c08bf3c6c44",
+      "Device - MCU"
+    ],
+    [
+      "c074bb0e-f753-441f-a226-72c05b95a5fa",
+      "Device - Charger"
+    ],
+    [
+      "c2eb4280-e2c4-407a-afb3-a7e55252f991",
+      "Device - Sensing"
+    ],
+    [
+      "b2dc4967-9e79-436c-97f4-9f910d00bbb9",
+      "Interface - USB"
+    ],
+    [
+      "0e96dbc3-21db-477c-a934-71a2dc79860b",
+      "Interface - MIPI"
+    ],
+    [
+      "3db577bd-5017-45a6-8466-505391a0ffec",
+      "Interface - User IOs"
+    ],
+    [
+      "15fc634a-c860-43f3-bf55-a6fd7c5af3a0",
+      "User - LED Indicators"
+    ],
+    [
+      "1430993e-7d4e-4068-aef7-e7c8cb2d98e4",
+      "User -  Function Key"
+    ],
+    [
+      "099c1b27-bf3a-4ba5-a2d9-afdbc478fd98",
+      "Misc - Holes, Fiducials"
     ],
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",

@@ -311,6 +311,20 @@
 		)
 		(uuid "0171ecc8-df6f-418e-95ea-db73cf975716")
 	)
+	(text "Power - PMIC"
+		(exclude_from_sim no)
+		(at 45.72 114.3 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "0294ec1c-0db5-48d3-aedc-45c193074b3b")
+	)
 	(text "BOTTOM VIEW"
 		(exclude_from_sim no)
 		(at 128.27 166.37 0)
@@ -424,9 +438,9 @@
 		)
 		(uuid "2d20025d-61e4-451d-b51e-153fedc44d68")
 	)
-	(text "..........................................."
+	(text "Device - WIFI"
 		(exclude_from_sim no)
-		(at 45.72 152.4 0)
+		(at 145.034 83.82 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -438,9 +452,9 @@
 		)
 		(uuid "2df49b6e-980f-4a01-ab23-c61ed27bd1b8")
 	)
-	(text "..........................................."
+	(text "SOC - MIPI DSI, GPIO"
 		(exclude_from_sim no)
-		(at 45.72 144.78 0)
+		(at 45.72 152.4 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -452,9 +466,9 @@
 		)
 		(uuid "319dfe95-cf7d-4b95-aa65-2f948d7bd6bc")
 	)
-	(text "..........................................."
+	(text "SOC - EMMC, SD0"
 		(exclude_from_sim no)
-		(at 45.72 137.16 0)
+		(at 45.72 144.78 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -466,9 +480,9 @@
 		)
 		(uuid "339f13bd-0896-43a1-925e-733e36e395bd")
 	)
-	(text "..........................................."
+	(text "Interface - MIPI"
 		(exclude_from_sim no)
-		(at 144.78 121.92 0)
+		(at 144.78 129.54 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -535,9 +549,9 @@
 		)
 		(uuid "44841f0e-187c-41b9-a570-9f74973319c9")
 	)
-	(text "..........................................."
+	(text "Device - Charger"
 		(exclude_from_sim no)
-		(at 144.78 99.06 0)
+		(at 144.78 106.68 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -663,7 +677,7 @@
 		)
 		(uuid "5216de6a-28ab-4e49-a422-9fd32d8fed67")
 	)
-	(text "Random Sheet 1"
+	(text "Power - Sequencing"
 		(exclude_from_sim no)
 		(at 45.72 106.68 0)
 		(effects
@@ -1002,7 +1016,7 @@
 		)
 		(uuid "93713c73-3aba-4b0b-9f3c-b37ab3721f94")
 	)
-	(text "..........................................."
+	(text "Revision History"
 		(exclude_from_sim no)
 		(at 243.84 91.44 0)
 		(effects
@@ -1030,9 +1044,9 @@
 		)
 		(uuid "9413d17b-fd74-4a56-8014-ec2904184d8a")
 	)
-	(text "Random Sheet 2"
+	(text "SOC - RTC"
 		(exclude_from_sim no)
-		(at 45.72 114.3 0)
+		(at 45.72 121.92 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1058,9 +1072,9 @@
 		)
 		(uuid "959ea2a5-595d-4c64-a44e-f0c1c6497852")
 	)
-	(text "..........................................."
+	(text "User -  Function Key"
 		(exclude_from_sim no)
-		(at 144.78 144.78 0)
+		(at 144.78 152.4 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1072,9 +1086,9 @@
 		)
 		(uuid "9d747571-2a3a-41dd-b7ab-0c07afaa5df1")
 	)
-	(text "..........................................."
+	(text "Device - EMMC"
 		(exclude_from_sim no)
-		(at 144.78 83.82 0)
+		(at 144.78 91.44 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1086,9 +1100,9 @@
 		)
 		(uuid "9e3e9ac8-468f-4f09-9650-682992859fd0")
 	)
-	(text "..........................................."
+	(text "Interface - User I/Os"
 		(exclude_from_sim no)
-		(at 144.78 129.54 0)
+		(at 144.78 137.16 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1156,9 +1170,9 @@
 		)
 		(uuid "ada746a9-1ac8-4ba5-b1f0-e040d6c0fa14")
 	)
-	(text "..........................................."
+	(text "Interface - USB"
 		(exclude_from_sim no)
-		(at 144.78 114.3 0)
+		(at 144.78 121.92 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1284,9 +1298,9 @@
 		)
 		(uuid "c1828499-d221-4dc2-9c7b-c9d850654d5e")
 	)
-	(text "..........................................."
+	(text "Device - Sensing"
 		(exclude_from_sim no)
-		(at 144.78 106.68 0)
+		(at 144.78 114.3 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1312,9 +1326,9 @@
 		)
 		(uuid "c52bc9e5-2c42-41e6-ae08-fabef868928a")
 	)
-	(text "Power - Sequencing"
+	(text "SOC - WIFI"
 		(exclude_from_sim no)
-		(at 45.72 121.92 0)
+		(at 45.72 129.54 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1493,9 +1507,9 @@
 		)
 		(uuid "e216870b-45fe-49b3-8e55-d9668eb9df44")
 	)
-	(text "..........................................."
+	(text "User - LED Indicators"
 		(exclude_from_sim no)
-		(at 144.78 137.16 0)
+		(at 144.78 144.78 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1520,20 +1534,6 @@
 			(href "#33")
 		)
 		(uuid "e5564811-ffd2-4bd9-9644-ff1dc80ebf87")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 144.78 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#20")
-		)
-		(uuid "e58de9a8-7551-4002-91cc-eb758bb6876c")
 	)
 	(text "34"
 		(exclude_from_sim no)
@@ -1591,9 +1591,9 @@
 		)
 		(uuid "ecd14d51-7267-460d-9460-6bae137b0c37")
 	)
-	(text "..........................................."
+	(text "Device - MCU"
 		(exclude_from_sim no)
-		(at 144.78 91.44 0)
+		(at 144.78 99.06 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1634,7 +1634,7 @@
 		)
 		(uuid "ee4bfbd2-ceac-40c9-847b-b15b18b07c08")
 	)
-	(text "..........................................."
+	(text "Misc - Holes, Fiducials"
 		(exclude_from_sim no)
 		(at 243.84 83.82 0)
 		(effects
@@ -1718,9 +1718,9 @@
 		)
 		(uuid "fe1f4464-8466-41a3-95c1-bacdc38614fb")
 	)
-	(text "Revision History"
+	(text "SOC - USB, EPHY"
 		(exclude_from_sim no)
-		(at 45.72 129.54 0)
+		(at 45.72 137.16 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -1782,7 +1782,7 @@
 		(instances
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -1864,7 +1864,7 @@
 		(instances
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "7")
+					(page "22")
 				)
 			)
 		)

@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(polyline
 		(pts
-			(xy 195.58 58.42) (xy 195.58 69.85)
+			(xy 109.22 69.85) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +23,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 55.88) (xy 195.58 44.45)
+			(xy 109.22 67.31) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -31,43 +31,10 @@
 		)
 		(uuid "41045457-e885-4cf4-93f2-cdba80791e7b")
 	)
-	(polyline
-		(pts
-			(xy 243.84 85.09) (xy 243.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f799f7d-3b4c-429a-be80-1688600486e9")
-	)
-	(polyline
-		(pts
-			(xy 243.84 96.52) (xy 243.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
-	)
 	(arc
-		(start 243.86 96.5)
-		(mid 244.2349 95.6049)
-		(end 245.13 95.23)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
-	)
-	(arc
-		(start 195.58 55.88)
-		(mid 195.2051 56.7751)
-		(end 194.31 57.15)
+		(start 109.22 67.31)
+		(mid 108.8451 68.2051)
+		(end 107.95 68.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -78,22 +45,9 @@
 		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
 	)
 	(arc
-		(start 241.32 82.53)
-		(mid 243.1102 83.2798)
-		(end 243.86 85.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
-	)
-	(arc
-		(start 194.31 57.15)
-		(mid 195.2051 57.5249)
-		(end 195.58 58.42)
+		(start 107.95 68.58)
+		(mid 108.8451 68.9549)
+		(end 109.22 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -104,35 +58,9 @@
 		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
 	)
 	(arc
-		(start 243.86 105.39)
-		(mid 243.1161 107.1861)
-		(end 241.32 107.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
-	)
-	(arc
-		(start 245.13 95.23)
-		(mid 244.2349 94.8551)
-		(end 243.86 93.96)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
-	)
-	(arc
-		(start 195.58 44.45)
-		(mid 196.3239 42.6539)
-		(end 198.12 41.91)
+		(start 109.22 55.88)
+		(mid 109.9639 54.0839)
+		(end 111.76 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -143,9 +71,9 @@
 		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
 	)
 	(arc
-		(start 198.12 72.39)
-		(mid 196.3298 71.6402)
-		(end 195.58 69.85)
+		(start 111.76 83.82)
+		(mid 109.9698 83.0702)
+		(end 109.22 81.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -157,7 +85,7 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 176.53 54.61 0)
+		(at 90.17 66.04 0)
 		(size 17.145 5.08)
 		(stroke
 			(width -0.0001)
@@ -199,31 +127,163 @@
 		)
 		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
 	)
-	(text_box "Description"
+	(text "Page 5"
 		(exclude_from_sim no)
-		(at 245.11 92.71 0)
-		(size 26.015 5.1)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
+		(at 193.04 130.81 0)
 		(effects
 			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
+				(size 2.54 2.54)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 100 70 50 1)
 			)
-			(justify left top)
+			(justify right bottom)
+			(href "#5")
 		)
-		(uuid "ea2adac5-d133-46b2-a7ff-14a70e2ad344")
+		(uuid "025c1bd2-e68b-4a09-9d62-c1e6f6f0a542")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 149.86 130.81 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "0d7ca5d9-f7ae-4b64-9098-fe9dfb4e4d42")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 193.04 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "1a8dae51-465b-4239-a90d-7591bcd07245")
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 236.22 66.04 0)
+		(at 193.04 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "2a5dda8e-6f92-45d0-96e2-c0b69ef76a27")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 236.22 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "3ae0919a-261f-4fde-8cab-18b9a85091a0")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 236.22 210.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "41e853fd-410d-44b3-bea4-291f4f77e0c3")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 193.04 184.15 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "4247b54e-8005-4262-ad25-ee5fee3ad0d7")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 149.86 184.15 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "77b38846-82ef-4141-928b-e5f10a2c3fd8")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 236.22 130.81 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "8efcfec5-f2a9-4eae-993e-0bc04adfcfe8")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 193.04 210.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "946d06da-5984-47a6-9172-c1a5ee65e558")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 149.86 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "96c0dfb5-9fee-4849-b2b9-8a91147a11b5")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 149.86 77.47 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -234,6 +294,20 @@
 			(href "#4")
 		)
 		(uuid "978bb74e-ca07-4b21-b2dc-19b812f717e9")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 149.86 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "9c7b6788-d78d-4661-9b1e-038c228d6ed3")
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
@@ -249,8 +323,50 @@
 		)
 		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
 	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 193.04 157.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "ca3b2067-2fcd-4a65-a08f-8977bfd89ff0")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 236.22 184.15 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "f10e1afc-9dd3-4ff3-a5fd-1c0eb9359eba")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 149.86 210.82 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "fd593250-34e6-40cd-b7fa-4c03c9646800")
+	)
 	(sheet
-		(at 200.66 46.99)
+		(at 200.66 191.77)
 		(size 36.83 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -258,11 +374,11 @@
 			(type solid)
 		)
 		(fill
-			(color 128 255 128 0.5000)
+			(color 255 200 0 0.5020)
 		)
-		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
-		(property "Sheetname" "Section A - Title A"
-			(at 200.66 45.9609 0)
+		(uuid "099c1b27-bf3a-4ba5-a2d9-afdbc478fd98")
+		(property "Sheetname" "Misc - Holes, Fiducials"
+			(at 200.66 190.7409 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -271,8 +387,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 200.66 67.8946 0)
+		(property "Sheetfile" "Section B - TItle B.kicad_sch"
+			(at 200.66 212.6746 0)
 			(effects
 				(font
 					(face "Arial")
@@ -284,7 +400,607 @@
 		(instances
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "4")
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 165.1)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "0e96dbc3-21db-477c-a934-71a2dc79860b")
+		(property "Sheetname" "Interface - MIPI"
+			(at 157.48 164.0709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - MIPI.kicad_sch"
+			(at 157.48 186.0046 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 85.09)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "12727398-d544-4225-acf0-fbcffefca846")
+		(property "Sheetname" "SOC - WIFI"
+			(at 114.3 84.0609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOC - WIFI.kicad_sch"
+			(at 114.3 105.9946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 191.77)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "1430993e-7d4e-4068-aef7-e7c8cb2d98e4")
+		(property "Sheetname" "User -  Function Key"
+			(at 157.48 190.7409 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User -  Function Key.kicad_sch"
+			(at 157.48 212.6746 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 191.77)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "15fc634a-c860-43f3-bf55-a6fd7c5af3a0")
+		(property "Sheetname" "User - LED Indicators"
+			(at 114.3 190.7409 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User - LED Indicators.kicad_sch"
+			(at 114.3 212.6746 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 165.1)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "3db577bd-5017-45a6-8466-505391a0ffec")
+		(property "Sheetname" "Interface - User IOs"
+			(at 200.66 164.0709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - User IOs.kicad_sch"
+			(at 200.66 186.0046 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 58.42)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "3f83a0da-0211-467c-bdbe-72eabd638cc0")
+		(property "Sheetname" "SOC - RTC"
+			(at 157.48 57.3909 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOC - RTC.kicad_sch"
+			(at 157.48 79.3246 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 138.43)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "51386d30-8cba-44b4-87ce-7c08bf3c6c44")
+		(property "Sheetname" "Device - MCU"
+			(at 114.3 137.4009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Device - MCU.kicad_sch"
+			(at 114.3 159.3346 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 111.76)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "5c4c087e-ed45-46ab-98d8-52ea4eb3af78")
+		(property "Sheetname" "SOC - MIPI DSI, GPIO"
+			(at 114.3 110.7309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOC - MIPI DSI, GPIO.kicad_sch"
+			(at 114.3 132.6646 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 58.42)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "Power - PMIC"
+			(at 114.3 57.3909 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power - PMIC.kicad_sch"
+			(at 114.3 79.3246 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 111.76)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "904c30ae-7474-456a-8566-9786dac11d96")
+		(property "Sheetname" "Device - WIFI"
+			(at 157.48 110.7309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Device - WIFI.kicad_sch"
+			(at 157.48 132.6646 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 111.76)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "ab4230a8-d238-400c-a33b-3364681cde2d")
+		(property "Sheetname" "Device - EMMC"
+			(at 200.66 110.7309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Device - EMMC.kicad_sch"
+			(at 200.66 132.6646 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 85.09)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "b0921ef2-98e4-4283-897e-0e4f807f92f1")
+		(property "Sheetname" "SOC - USB, EPHY"
+			(at 157.48 84.0609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOC - USB, EPHY.kicad_sch"
+			(at 157.48 105.9946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 165.1)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "b2dc4967-9e79-436c-97f4-9f910d00bbb9")
+		(property "Sheetname" "Interface - USB"
+			(at 114.3 164.0709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - USB.kicad_sch"
+			(at 114.3 186.0046 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 138.43)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "c074bb0e-f753-441f-a226-72c05b95a5fa")
+		(property "Sheetname" "Device - Charger"
+			(at 157.48 137.4009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Device - Charger.kicad_sch"
+			(at 157.48 159.3346 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 138.43)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "c2eb4280-e2c4-407a-afb3-a7e55252f991")
+		(property "Sheetname" "Device - Sensing"
+			(at 200.66 137.4009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Device - Sensing.kicad_sch"
+			(at 200.66 159.3346 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Linux-Kit"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "15")
 				)
 			)
 		)
@@ -301,7 +1017,7 @@
 			(color 255 200 0 0.5020)
 		)
 		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
-		(property "Sheetname" "Section B - Title B"
+		(property "Sheetname" "SOC - EMMC, SD0"
 			(at 200.66 84.0609 0)
 			(effects
 				(font
@@ -311,7 +1027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - TItle B.kicad_sch"
+		(property "Sheetfile" "SOC - EMMC, SD0.kicad_sch"
 			(at 200.66 105.9946 0)
 			(effects
 				(font
@@ -324,7 +1040,7 @@
 		(instances
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "5")
+					(page "9")
 				)
 			)
 		)

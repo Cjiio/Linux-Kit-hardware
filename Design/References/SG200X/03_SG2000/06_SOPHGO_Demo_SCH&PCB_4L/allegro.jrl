@@ -1,0 +1,33 @@
+\t (00:00:05) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:05)     Journal start - Sat Sep 28 02:09:33 2024
+\t (00:00:05)         Host=CJIIO-COMPOSER User=Cjiio Pid=17264 CPUs=16
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:06) Starting new design...
+   (00:00:06) Loading cmds.cxt 
+   (00:00:06) t
+\i (00:00:06) trapsize 604
+\i (00:00:06) trapsize 594
+\i (00:00:06) trapsize 606
+\i (00:00:07) trapsize 531
+\i (00:00:07) trapsize 980
+\i (00:00:08) open 
+\i (00:00:18) fillin "C:\Users\Cjiio\Desktop\OSHW-WioTerminal\Design Files in Wio Terminal Wiki\Wio-Terminal\wio terminal.brd"
+\i (00:00:18) cd "C:\Users\Cjiio\Desktop\OSHW-WioTerminal\Design Files in Wio Terminal Wiki\Wio-Terminal"
+\t (00:00:18) Opening existing design...
+\e (00:00:18) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:00:18) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:00:22) fillin confirm
+\t (00:00:22) Starting new design...
+\i (00:00:22) trapsize 980
+\i (00:00:24) fillin "wio terminal.brd"
+\t (00:00:24) Opening existing design...
+\e (00:00:24) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:00:24) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:00:34) fillin confirm
+\t (00:00:34) Starting new design...
+\i (00:00:34) trapsize 980
+\i (00:00:35) fillin "menu_cancel"
+\i (00:00:35) generaledit 
+\i (00:00:36) exit 
+\t (00:00:36)     Journal end - Sat Sep 28 02:10:04 2024

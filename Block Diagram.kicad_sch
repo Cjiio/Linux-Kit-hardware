@@ -1282,10 +1282,10 @@
 		)
 		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
 	)
-	(text_box "Page #"
+	(text_box "Page #5"
 		(exclude_from_sim no)
-		(at 65.278 68.58 0)
-		(size 13.97 5.08)
+		(at 66.04 68.58 0)
+		(size 15.24 5.08)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -1302,6 +1302,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left top)
+			(href "#5")
 		)
 		(uuid "7d0acf89-7773-4e7f-ac89-c1f23d71a151")
 	)
@@ -1776,7 +1777,7 @@
 		)
 		(uuid "f73ecd5d-28d4-4dc6-ad8d-2c156959b733")
 	)
-	(text_box "Block\nDescription"
+	(text_box "Block\nMAX 2A"
 		(exclude_from_sim no)
 		(at 76.708 85.09 0)
 		(size 25.4 10.16)
@@ -1882,7 +1883,7 @@
 		)
 		(uuid "9f95118d-0d59-44c2-9418-d899cdef91d3")
 	)
-	(text "+??V"
+	(text "+5V"
 		(exclude_from_sim no)
 		(at 52.578 78.74 0)
 		(effects

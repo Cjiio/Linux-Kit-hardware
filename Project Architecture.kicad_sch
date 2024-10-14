@@ -11,100 +11,6 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(polyline
-		(pts
-			(xy 109.22 69.85) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3c70a2-22df-46ef-a52f-0f821498dc0c")
-	)
-	(polyline
-		(pts
-			(xy 109.22 67.31) (xy 109.22 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41045457-e885-4cf4-93f2-cdba80791e7b")
-	)
-	(arc
-		(start 109.22 67.31)
-		(mid 108.8451 68.2051)
-		(end 107.95 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
-	)
-	(arc
-		(start 107.95 68.58)
-		(mid 108.8451 68.9549)
-		(end 109.22 69.85)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
-	)
-	(arc
-		(start 109.22 55.88)
-		(mid 109.9639 54.0839)
-		(end 111.76 53.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
-	)
-	(arc
-		(start 111.76 83.82)
-		(mid 109.9698 83.0702)
-		(end 109.22 81.28)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
-	)
-	(text_box "Description"
-		(exclude_from_sim no)
-		(at 90.17 66.04 0)
-		(size 17.145 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "51bc3fdc-86f1-4742-b7d8-53f1faaab343")
-	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 144.78 20.32 0)
@@ -140,34 +46,6 @@
 			(href "#5")
 		)
 		(uuid "025c1bd2-e68b-4a09-9d62-c1e6f6f0a542")
-	)
-	(text "Page 5"
-		(exclude_from_sim no)
-		(at 149.86 130.81 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 100 70 50 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "0d7ca5d9-f7ae-4b64-9098-fe9dfb4e4d42")
-	)
-	(text "Page 5"
-		(exclude_from_sim no)
-		(at 193.04 104.14 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 100 70 50 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "1a8dae51-465b-4239-a90d-7591bcd07245")
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
@@ -297,34 +175,6 @@
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 149.86 104.14 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 100 70 50 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "9c7b6788-d78d-4661-9b1e-038c228d6ed3")
-	)
-	(text "Page 5"
-		(exclude_from_sim no)
-		(at 236.22 104.14 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 100 70 50 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
-	)
-	(text "Page 5"
-		(exclude_from_sim no)
 		(at 193.04 157.48 0)
 		(effects
 			(font
@@ -441,46 +291,6 @@
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 85.09)
-		(size 36.83 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 200 0 0.5020)
-		)
-		(uuid "12727398-d544-4225-acf0-fbcffefca846")
-		(property "Sheetname" "SOC - WIFI"
-			(at 114.3 84.0609 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOC - WIFI.kicad_sch"
-			(at 114.3 105.9946 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Linux-Kit"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "7")
 				)
 			)
 		)
@@ -617,7 +427,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "3f83a0da-0211-467c-bdbe-72eabd638cc0")
-		(property "Sheetname" "SOC - RTC"
+		(property "Sheetname" "SOC - Main"
 			(at 157.48 57.3909 0)
 			(effects
 				(font
@@ -627,7 +437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SOC - RTC.kicad_sch"
+		(property "Sheetfile" "SOC - Main.kicad_sch"
 			(at 157.48 79.3246 0)
 			(effects
 				(font
@@ -681,46 +491,6 @@
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 111.76)
-		(size 36.83 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 200 0 0.5020)
-		)
-		(uuid "5c4c087e-ed45-46ab-98d8-52ea4eb3af78")
-		(property "Sheetname" "SOC - MIPI DSI, GPIO"
-			(at 114.3 110.7309 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOC - MIPI DSI, GPIO.kicad_sch"
-			(at 114.3 132.6646 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Linux-Kit"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "10")
 				)
 			)
 		)
@@ -846,46 +616,6 @@
 		)
 	)
 	(sheet
-		(at 157.48 85.09)
-		(size 36.83 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 200 0 0.5020)
-		)
-		(uuid "b0921ef2-98e4-4283-897e-0e4f807f92f1")
-		(property "Sheetname" "SOC - USB, EPHY"
-			(at 157.48 84.0609 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOC - USB, EPHY.kicad_sch"
-			(at 157.48 105.9946 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Linux-Kit"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 114.3 165.1)
 		(size 36.83 20.32)
 		(fields_autoplaced yes)
@@ -1001,46 +731,6 @@
 			(project "Linux-Kit"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
 					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 200.66 85.09)
-		(size 36.83 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 200 0 0.5020)
-		)
-		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
-		(property "Sheetname" "SOC - EMMC, SD0"
-			(at 200.66 84.0609 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOC - EMMC, SD0.kicad_sch"
-			(at 200.66 105.9946 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Linux-Kit"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(page "9")
 				)
 			)
 		)

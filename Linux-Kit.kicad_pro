@@ -652,23 +652,7 @@
     ],
     [
       "3f83a0da-0211-467c-bdbe-72eabd638cc0",
-      "SOC - RTC"
-    ],
-    [
-      "12727398-d544-4225-acf0-fbcffefca846",
-      "SOC - WIFI"
-    ],
-    [
-      "b0921ef2-98e4-4283-897e-0e4f807f92f1",
-      "SOC - USB, EPHY"
-    ],
-    [
-      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
-      "SOC - EMMC, SD0"
-    ],
-    [
-      "5c4c087e-ed45-46ab-98d8-52ea4eb3af78",
-      "SOC - MIPI DSI, GPIO"
+      "SOC - Main"
     ],
     [
       "904c30ae-7474-456a-8566-9786dac11d96",

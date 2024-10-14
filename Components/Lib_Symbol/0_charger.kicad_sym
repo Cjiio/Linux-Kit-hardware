@@ -381,7 +381,7 @@
 					(type none)
 				)
 			)
-			(text "PMIC"
+			(text "CHARGER"
 				(at 0 26.67 0)
 				(effects
 					(font
